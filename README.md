@@ -1,3 +1,3 @@
 # TIL
-Solving problems, whether easy or difficult
-Staying humble
+- Solving problems, whether easy or difficult
+- Staying humble
