@@ -1,2 +1,3 @@
 # TIL
-Today I Learned
+Solving problems, whether easy or difficult
+Staying humble
