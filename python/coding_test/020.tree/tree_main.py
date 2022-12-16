@@ -2,13 +2,13 @@ class Node:
     def __init__(self, data, left_node, right_node):
         self.left_node = left_node
         self.data = data
-        self.right_noode = right_node
+        self.right_node = right_node
 
 #2. 순회별 구현
 
 #2.1 전위 순회(Preorder Traversal)
 def pre_order(node):
-    print(node.data, end=' ')
+    print(node.data, end=' #노드 데이터')
 
     if node.left_node != None:
         pre_order(tree[node.left_node])
@@ -42,10 +42,9 @@ tree = dict()
 for i in range(n):
     data, left_node, right_node = input().split()
     if left_node == 'None':
-        left_node = None
+        left_node = None    
     if right_node == 'None':
-        right_node = None
-        
+        right_node = None        
     tree[data] = Node(data, left_node, right_node)
 
 
